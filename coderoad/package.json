@@ -1,0 +1,16 @@
+{
+  "name": "coderoad",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "programmatic-test": "mocha --reporter=mocha-tap-reporter",
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "mocha": "^11.1.0",
+    "mocha-tap-reporter": "^0.1.3"
+  }
+}
