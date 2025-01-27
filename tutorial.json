@@ -1,0 +1,63 @@
+{
+  "id": "first-coadroad-tutorial",
+  "version": "0.1.0",
+  "summary": {
+    "title": "Introduction",
+    "description": "This is an introduction to your tutorial. It will show up on the first page when your tutorial is started."
+  },
+  "config": {
+    "testRunner": {
+      "command": "./node_modules/.bin/mocha",
+      "args": {
+        "tap": "--reporter=mocha-tap-reporter"
+      },
+      "directory": "coderoad"
+    },
+    "setup": {
+      "commands": [
+        "cd coderoad && npm install"
+      ],
+      "commits": [
+        "a01ff8e5bceb94a77f1b94bdba988045a9edc39f"
+      ]
+    },
+    "repo": {
+      "uri": "https://github.com/jcandan/first-coadroad-tutorial",
+      "branch": "v0.1.0"
+    },
+    "dependencies": [
+      {
+        "name": "node",
+        "version": ">=10"
+      }
+    ]
+  },
+  "levels": [
+    {
+      "id": "1",
+      "title": "Create index.html",
+      "summary": "Optional summary for Level 1",
+      "content": "Here's where you can put a description, examples, and instructions for the lesson.",
+      "steps": [
+        {
+          "id": "1.1",
+          "content": "This is the test text. Create an `index.html` file to pass this lesson.",
+          "hints": [
+            "This is a hint to help people through the test",
+            "Second hint for 1.1, don't worry if the hints don't show up yet"
+          ],
+          "setup": {
+            "commits": [
+              "e14a1454d4b8a69dc82f30855bf374482e92b652"
+            ]
+          },
+          "solution": {
+            "commits": [
+              "46bed957905a88e4ab0778d727c9fb5bb4782e53"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
