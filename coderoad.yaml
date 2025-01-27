@@ -1,4 +1,5 @@
 version: '0.1.0'
+id: first-coadroad-tutorial
 config:
   testRunner:
     command: ./node_modules/.bin/mocha
